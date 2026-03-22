@@ -5,7 +5,12 @@
       "Bash(npm update:*)",
       "Bash(npm install:*)",
       "Bash(npm ls:*)",
-      "Bash(npm rebuild:*)"
+      "Bash(npm rebuild:*)",
+      "Bash(gh api:*)",
+      "WebFetch(domain:www.npmjs.com)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(curl -s https://api.github.com/repos/rjbma/ts-state-machine/readme)"
     ]
   }
 }

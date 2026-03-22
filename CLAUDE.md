@@ -56,5 +56,9 @@ stdin → readline → parser → log-index → WebSocket broadcast → log-stor
 - **Frontend bundler**: Rollup (configured in `svelte/rollup.config.js`); separate from root TypeScript compilation via `tsc`.
 
 
-# git
+## Git / GitHub
+- `origin` = `rjbmanvr/web-log-viewer` (fork) — push commits here
+- Issues and PRs target `rjbma/web-log-viewer` (upstream)
+- SSH remote uses the `github_rjbmanvr` host alias
+- When opening a PR: `gh pr create --repo rjbma/web-log-viewer --head rjbmanvr:main`
 - on commit messages, don't include information about co-authoring the code with Claude or any other tool
